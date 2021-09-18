@@ -1,9 +1,12 @@
 //バイクゲームだよ
 
+//HTMLにゲーム画面を作成
 var c = document.createElement("canvas");
+//2Dの画面として表示
 var ctx = c.getContext("2d");
 c.width = 1000;
 c.height = 400;
+
 
 document.body.appendChild(c);
 
